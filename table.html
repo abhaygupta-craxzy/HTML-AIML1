@@ -7,6 +7,7 @@
 </head>
 <body>
       <h1><b><u><i>TABLE TAG</i></u></b></h1>
+      
     
     <Table>
     <tr>
@@ -39,7 +40,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Data Table</title>
-    <!-- Load Tailwind CSS from CDN -->
+    Load Tailwind CSS from CDN
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         /* Setting the default font to Inter for a modern look */
@@ -57,11 +58,11 @@
             TABLE
         </h1>
 
-        <!-- Table Container: Makes it scrollable on small screens -->
-        <div class="overflow-x-auto bg-white shadow-xl rounded-xl">
+         Table Container: Makes it scrollable on small screens 
+         <div class="overflow-x-auto bg-white shadow-xl rounded-xl">
             <table class="min-w-full divide-y divide-gray-200">
-                
-                <!-- Table Header (The required fields) -->
+                 
+                 Table Header (The required fields)
                 <thead class="bg-gray-50">
                     <tr>
                         <th scope="col" class="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider rounded-tl-xl">
@@ -76,27 +77,27 @@
                     </tr>
                 </thead>
 
-                <!-- Table Body (Mock Data) -->
+              Table Body (Mock Data)->
                 <tbody class="bg-white divide-y divide-gray-100">
                     
-                    <!-- Row 1 -->
-                    <tr class="hover:bg-indigo-50/30 transition duration-150 ease-in-out">
+                    Row 1 
+                     <tr class="hover:bg-indigo-50/30 transition duration-150 ease-in-out">
                         <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                            ABHAY
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
                             GUPTA
                         </td>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
-                            19
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600"> -->
+                            
                         </td>
                     </tr>
                     
-                    <!-- Row 2 -->
+                    row 2 
                     <tr class="hover:bg-indigo-50/30 transition duration-150 ease-in-out">
                         <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                             SOHAN
-                        </td>
+                         </td> 
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
                             VERMA
                         </td>
@@ -105,22 +106,22 @@
                         </td>
                     </tr>
                     
-                    <!-- Row 3 -->
-                    <tr class="hover:bg-indigo-50/30 transition duration-150 ease-in-out">
+                     Row 3
+                     <tr class="hover:bg-indigo-50/30 transition duration-150 ease-in-out">
                         <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                             SHREYA
-                        </td>
+                        </td> 
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
                             SHARMA
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
                             19
                         </td>
-                    </tr>
+                    </tr> 
                     
-                    <!-- You can copy and paste the <tr>...</tr> section to add more rows -->
+                    <You can copy and paste the <tr>...</tr> section to add more rows >
 
-                </tbody>
+                 </tbody>
             </table>
         </div>
     </div>
@@ -131,8 +132,8 @@
     <tr>
         <th>Day</th>
         
-       <th>1</th>
-      
+       <th>1</th> 
+       
 
        <th>2</th>
       
@@ -145,12 +146,12 @@
        
        <th>6</th>
 
-       <th>7</th>
+       <th>7</th> 
 
        
 
-       </tr>
-       <tr><td>MONDAY</td>
+       </tr>  
+        <tr><td>MONDAY</td>
        <td>25HU101
            (SGI)
           <br> Rj-107
@@ -198,8 +199,8 @@
            (DSX)
           <br> Rj-202
        </td>
-       <td>25HU102
-          (NS)
+       <td>25HU102  
+           (NS)
          <br> Rj-107
        </td>
        <td>25HU107
@@ -257,7 +258,7 @@
        <td>25ME101
          (SCN)
          <br>Rj-101
-       </td></tr>
+       </td></tr> 
  
 
 
@@ -343,7 +344,191 @@
 </body>
 </html>
        
+    <br>
+    <br>
     
-    
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table structure</title>
+</head>
+<br>
+<body>
+  <table border="1">
+    <caption>Student Information</caption>
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th> 
+         <th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Abhay</td>
+        <td>Gupta</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>Vimal</td>
+        <td>Sharma</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>Akriti</td>
+        <td>Dubey</td>
+        <td>19</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">Total Students: 3</td>
+      </tr>
+    </tfoot>
+ <br>
+ <br>
+  </table> 
+  <br>
+  <br>
+
+  <h1><b>Cell that spans two rows</b></h1>
+
+  <table border="6" cell padding="10" cellspacing="5">
+    <tr>
+      <th >NAME</th>
+      <th>ABHAY</th>
+      </tr>
+    <tr>
+      <td rowspan="2">PHONE</td>
+      <td>12345678</td>
+
+    </tr>
+    <tr>
+     
+      <td>87654321</td>
+    </tr>
+  </table>
+  <br>
+  
+
+  <Table>
+    <td>1</td>
+    <td>Main table column2
+
+
+
+    <Table border="3">
+      <tr>
+        <th>Sub table col1</th>
+        <th>Sub table col2</th>
+      </tr>
+      <tr>
+        <td>Sub table row1 col1
+
+          <table>
+            <tr>
+              <td>Nested table row1 col1</td>
+              <td>Nested table row1 col2</td>
+            </tr>
+            <tr>
+              <td>Nested table row2 col1</td>
+              <td>Nested table row2 col2</td>
+            </tr>
+          </table>
+        </td>
+        <td>Sub table row1 col2</td>
+      </tr>
+      <tr>
+        <td>Sub table row2 col1</td>
+        <td>Sub table row2 col2</td>
+      </tr>
+      
+  </Table>
+
+
+
+
+
+  </Table>
+
+
+
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
